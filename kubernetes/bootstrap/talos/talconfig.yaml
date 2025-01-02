@@ -26,7 +26,7 @@ nodes:
   - hostname: "k8s-0"
     ipAddress: "192.168.1.98"
     installDiskSelector:
-      serial: "nvme0n1"
+      serial: "24304A343650"
     talosImageURL: factory.talos.dev/installer/064d2c892ac9a3a7da7fa550dbdd1516908bd9dfe355ad345ff4e9d8f8b34930
     controlPlane: true
     networkInterfaces:
@@ -44,7 +44,7 @@ nodes:
   - hostname: "k8s-1"
     ipAddress: "192.168.1.99"
     installDiskSelector:
-      serial: "nvme0n1"
+      serial: "24304A23D2F0"
     talosImageURL: factory.talos.dev/installer/064d2c892ac9a3a7da7fa550dbdd1516908bd9dfe355ad345ff4e9d8f8b34930
     controlPlane: true
     networkInterfaces:
@@ -62,7 +62,7 @@ nodes:
   - hostname: "k8s-2"
     ipAddress: "192.168.1.100"
     installDiskSelector:
-      serial: "nvme0n1"
+      serial: "24304A23705F"
     talosImageURL: factory.talos.dev/installer/064d2c892ac9a3a7da7fa550dbdd1516908bd9dfe355ad345ff4e9d8f8b34930
     controlPlane: true
     networkInterfaces:
